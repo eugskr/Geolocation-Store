@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Api", "GeolocationStore.Api\GeolocationStore.Api.csproj", "{F4305804-655C-45DB-8173-E7BD45540B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Application", "GeolocationStore.Application\GeolocationStore.Application.csproj", "{A1633619-FEF4-4F1A-B68B-12E46CAE1FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Infrastructure", "GeolocationStore.Infrastructure\GeolocationStore.Infrastructure.csproj", "{D346B614-9FF3-42AB-98C0-D2A425350CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Domain", "GeolocationStore.Domain\GeolocationStore.Domain.csproj", "{980744D1-BE1D-4E6A-A66A-58273F8710CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4305804-655C-45DB-8173-E7BD45540B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4305804-655C-45DB-8173-E7BD45540B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4305804-655C-45DB-8173-E7BD45540B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4305804-655C-45DB-8173-E7BD45540B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1633619-FEF4-4F1A-B68B-12E46CAE1FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1633619-FEF4-4F1A-B68B-12E46CAE1FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1633619-FEF4-4F1A-B68B-12E46CAE1FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1633619-FEF4-4F1A-B68B-12E46CAE1FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D346B614-9FF3-42AB-98C0-D2A425350CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D346B614-9FF3-42AB-98C0-D2A425350CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D346B614-9FF3-42AB-98C0-D2A425350CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D346B614-9FF3-42AB-98C0-D2A425350CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
