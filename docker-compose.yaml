@@ -1,0 +1,40 @@
+version: '3.7'
+services:
+    postgresql_database:
+        image: postgres:latest
+        environment:
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=Passw0rd!
+          - POSTGRES_DB=GeolocationStoreDb
+        ports:
+          - '5432:5432'
+        restart: unless-stopped
+        volumes:
+          - postgres-data:/data/db
+    
+    pgadmin:
+      image: dpage/pgadmin4
+      environment:
+        - PGADMIN_DEFAULT_EMAIL=test@test.com
+        - PGADMIN_DEFAULT_PASSWORD=admin
+      ports:
+        - "5050:80"
+      restart: unless-stopped
+      volumes:
+        - pgadmin:/data/db/.pgadmin
+          
+    geolocationstore:
+      image: geolocationstore
+      ports:
+        - "8000:80"
+      build:
+        context: .
+        dockerfile: GeolocationStore.Api/Dockerfile
+      depends_on:
+        - postgresql_database
+
+
+volumes:
+  postgres-data:
+  pgadmin:
+        

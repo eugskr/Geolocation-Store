@@ -8,4 +8,15 @@
       <ProjectReference Include="..\GeolocationStore.Application\GeolocationStore.Application.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.WebUtilities">
+        <HintPath>..\..\..\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.6\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Domain", "GeolocationStore.Domain\GeolocationStore.Domain.csproj", "{980744D1-BE1D-4E6A-A66A-58273F8710CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeolocationStore.Application.Tests", "GeolocationStore.Application.Tests\GeolocationStore.Application.Tests.csproj", "{D18EB0B7-DBAA-4550-8ACB-2995CB2273E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{980744D1-BE1D-4E6A-A66A-58273F8710CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18EB0B7-DBAA-4550-8ACB-2995CB2273E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18EB0B7-DBAA-4550-8ACB-2995CB2273E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18EB0B7-DBAA-4550-8ACB-2995CB2273E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18EB0B7-DBAA-4550-8ACB-2995CB2273E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
